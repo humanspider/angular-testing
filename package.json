@@ -8,7 +8,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "CHROME_BIN='/mnt/c/Program Files/Google/Chrome/Application/chrome.exe' ng test --watch=false",
+    "test": "ng test",
+    "test-wsl-local": "CHROME_BIN='/mnt/c/Program Files/Google/Chrome/Application/chrome.exe' ng test --watch=false",
     "e2e": "ng e2e"
   },
   "private": true,
